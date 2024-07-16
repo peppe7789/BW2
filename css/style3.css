@@ -1,0 +1,178 @@
+.personal {
+    border: 1px solid black;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.buttonBurgerMenu {
+    background: none;
+    color: grey;
+    border: none;
+}
+
+.burgerMenu {
+    height: 30px;
+    width: 30px;
+}
+
+.rightMenu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.rightMenu li a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.menuOffCanvas li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.menuOffCanvas li a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.profileLogoOff {
+    width: 35px;
+    height: 35px;
+}
+
+.worldLogo {
+    width: 20px;
+    height: 20px;
+}
+
+
+.imgOfferta {
+    background-image: url(../assets/2.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.imgOfferta2 {
+    background-image: url(../assets/3.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.imgOfferta3 {
+    background-image: url(../assets/4.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.imgOfferta4 {
+    background-image: url(../assets/5.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.imgOfferta::before,
+.imgOfferta2::before,
+.imgOfferta3::before,
+.imgOfferta4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.imgOfferta:hover::before,
+.imgOfferta2:hover::before,
+.imgOfferta3:hover::before,
+.imgOfferta4:hover::before {
+    opacity: 1;
+}
+
+.scaleImgContainer {
+    position: relative;
+    overflow: hidden;
+}
+
+.scaleImgContainer img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.3s ease;
+}
+
+.scaleImgContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.scaleImgContainer:hover::before {
+    opacity: 1;
+}
+
+.svgStar {
+    width: 10px;
+    height: 10px;
+}
+
+.svgStar svg {
+    fill: #FF385C;
+}
+
+.titleSpan {
+    font-size: 14px;
+}
+
+p,
+span {
+    font-size: 12px;
+}
+
+h5 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.optionsDiv ion-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.inputsReserv {
+    border: 1px solid grey;
+    font-size: 11px;
+}
+
+.inputsReserv input {
+    border: none;
+}
+
+.buttonCancel {
+    border: none;
+    background-color: #FF385C;
+}
+
+.reservationBox {
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.7);
+}
