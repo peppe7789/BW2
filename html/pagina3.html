@@ -180,8 +180,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="reservationBox rounded-4 p-3 ">
+                <div id="areaScroll" class="col-12 col-md-6 col-lg-4">
+                    <div id="limitedScroll" class="reservationBox rounded-4 p-3 ">
                         <div class="d-flex justify-content-between w-100">
                             <span class="titleSpan col-5">Add dates to see the prices</span>
                             <div class="d-flex col-5 gap-2 justify-content-end">
@@ -209,9 +209,68 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
+
+        <div class="row mt-4 mb-4 d-flex justify-content-center">
+            <div class="col-12 col-md-8">
+                <form class="col-md-9">
+                    <div class="d-md-flex w-100 gap-1">
+                        <div class="form-group d-flex flex-column flex-grow-1">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Name">
+                        </div>
+
+                        <div class="form-group d-flex flex-column flex-grow-1">
+                            <label for="name">Rating</label>
+                            <select class="form-select small-star-select" aria-label="Default select example">
+                                <option>★</option>
+                                <option>★★</option>
+                                <option>★★★</option>
+                                <option>★★★★</option>
+                                <option>★★★★★</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group mt-md-2">
+                        <label for="review">Review</label>
+                        <textarea class="form-control" id="review" rows="5"
+                            placeholder="Type in your review"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+           <div class="col-12 col-md-8 d-flex flex-column flex-md-row gap-4">
+                <div class="col-12 col-md-6">
+                    <div class="d-flex align-items-center gap-2">
+                        <div class="logoReviewProfile">
+                            <img class="w-100" src="../assets/propic.png" alt="">
+                        </div>
+                        <div class="nameDate d-flex flex-column justify-content-center">
+                            <h5 class="mb-0">Noemi</h5>
+                            <p class="text-muted mb-0">Jan 2021</p>
+                        </div>
+                    </div>
+                    <p class="pt-2">Contrary to other reviews, i was cold and couldn't figure out how to turn on the heating...Otherwise amazing house.</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="d-flex align-items-center gap-2">
+                        <div class="logoReviewProfile">
+                            <img class="w-100" src="../assets/propic.png" alt="">
+                        </div>
+                        <div class="nameDate d-flex flex-column justify-content-center">
+                            <h5 class="mb-0">Enrico</h5>
+                            <p class="text-muted mb-0">Jan 2021</p>
+                        </div>
+                    </div>
+                    <p class="pt-2">Amazing place. i've been here with my daughter to take pictures and we were not disappointed!</p>
+                </div>
+           </div>
+        </div>
+
 
 
     </main>
@@ -221,6 +280,7 @@
         crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../Javascript/script3.js"></script>
 </body>
 
 </html>
