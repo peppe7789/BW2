@@ -1,0 +1,35 @@
+.ricerca{
+    border: 1px solid black;
+
+}
+
+
+
+.location{
+    margin-left: 35px !important;
+}
+.search-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+   
+}
+.search-container .form-control {
+    border: none;
+    outline: none;
+}
+.search-container button {
+   
+    border: none;
+    color: white;
+    border-radius: 0 30px 30px 0;
+ 
+}
+.img-logo-search{
+    height: 40px;
+    width: 40px;
+
+}
+
+.text-frist{
+  padding-left: 50px;
+}
