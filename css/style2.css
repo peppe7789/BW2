@@ -29,13 +29,13 @@
 }
 
 
-.menuOffCanvas li a{
+.menuOffCanvas li a {
     text-decoration: none;
     color: grey;
 }
 
 
-.menuOffCanvas li a:hover{
+.menuOffCanvas li a:hover {
     text-decoration: none;
     color: black;
 }
@@ -51,19 +51,43 @@
     width: 20px;
     height: 20px;
 }
+
 /* fine navbar */
 
 /* colore plus  */
-.custom-plus{
-width: 30px;
-height: 30px;
-background-color: rgb(228, 30, 87) ;
-border-radius: 50px;
+.custom-plus {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(228, 30, 87);
+    border-radius: 50px;
+    color: white;
+    
 }
 
-.style-btn{
-    width: 100 px;
-    height: 30px;
+.style-btn {
+
+    white-space: nowrap;
     border-radius: 50px;
-    border: 1px solid grey
+    border: 1px solid grey;
+    font-size: 12px;
+
+
+}
+
+.fs-custom span,
+p {
+    font-size: 12px;
+}
+
+.svgStar {
+    width: 10px;
+    height: 10px;
+}
+
+.svgStar svg {
+    fill: #FF385C;
+}
+
+.size-text-custom {
+    font-size: 12px;
 }
