@@ -91,3 +91,36 @@ p {
 .size-text-custom {
     font-size: 12px;
 }
+
+/*footer*/
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.backgroundFooter {
+    background-color: #F7F7F7;
+}
+
+.footerList li a{
+    font-size: 12px;
+    
+}
+
+.firstFooterList li a:hover {
+    color: grey;
+}
+
+.socialLogos {
+    cursor: pointer;
+}
+
+h5 {
+    font-size: 13px;
+}
+
+.customSize {
+    font-size: 13px;
+}
