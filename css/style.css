@@ -1,0 +1,203 @@
+.logo img {
+    width: 100px;
+}
+
+
+.buttonBurgerMenu {
+    background: none;
+    border: none;
+    color: transparent;
+}
+
+
+.burgerMenu {
+    height: 30px;
+    width: 30px;
+    color: black;
+}
+
+
+.rightMenu li a {
+    text-decoration: none;
+    color: white
+}
+
+
+.rightMenu li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+.menuOffCanvas li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.menuOffCanvas li a:hover {
+    text-decoration: none;
+    color: rgb(106, 116, 207);
+}
+
+
+.profileLogoOff {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+
+.worldLogo {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.navContainer {
+    background-image: url(../assets/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-height: 700px; */
+    background-position: center;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.discoverPlaces a {
+    text-decoration: none;
+    color: white;
+}
+
+.userManagement {
+    border-radius: 20px;
+}
+
+.fronTextColor h1 {
+    color: white;
+    font-size: 85px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.fronTextColor button {
+    border-radius: 5px;
+}
+
+/* style barra ricerca */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: white;
+}
+
+
+.search-bar input {
+    font-size: 12px;
+    border: none;
+}
+
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.form-control {
+    padding: 0;
+}
+
+
+.searchButton {
+    width: 30px;
+    height: 30px;
+}
+
+
+.searchButton button {
+    background-color: #FF385C;
+    border: none;
+    color: white;
+}
+.bsb-hero-6 {
+    background-image: url('../assets/home.jpg');
+    background-size: cover;
+    height:70dvh;
+    background-position: center center;
+    
+}
+
+
+.go-near{
+    line-height: 0.9;
+    font-size: 85px;
+}
+.button-gonear{
+    background-color: white;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bsb-hero-6 {
+        background-image: url('../assets/home.jpg');
+        background-size: cover;
+        height:110dvh;
+        background-position: center center;
+        
+    }
+  }
+
+.img-card{
+    height: 80px;
+    width: 80px;
+}
+.card-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 12px;
+    
+}
+
+/*footer*/
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.backgroundFooter {
+    background-color: #F7F7F7;
+}
+
+.footerList li a{
+    font-size: 12px;
+
+}
+
+.firstFooterList li a:hover {
+    color: grey;
+}
+
+.socialLogos {
+    cursor: pointer;
+}
+
+h5 {
+    font-size: 13px;
+}
+
+.customSize {
+    font-size: 13px;
+}
