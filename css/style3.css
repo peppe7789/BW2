@@ -226,3 +226,12 @@ ul li a {
 .socialLogos {
     cursor: pointer;
 }
+
+#limitedScroll {
+    position: sticky;
+    top: 50px;
+}
+
+#areaScroll {
+    position: relative;
+}
