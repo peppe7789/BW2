@@ -3,6 +3,10 @@
     width: 100px;
 }
 
+.logo {
+    cursor: pointer;
+}
+
 
 .buttonBurgerMenu {
     background: none;
@@ -50,6 +54,10 @@
 .worldLogo {
     width: 20px;
     height: 20px;
+}
+
+.offcanvas {
+    --bs-offcanvas-height: 50vh;
 }
 
 /* fine navbar */

@@ -6,6 +6,10 @@
     width: 100px;
 }
 
+.logo {
+    cursor: pointer;
+}
+
 .buttonBurgerMenu {
     background: none;
     color: grey;
@@ -45,6 +49,10 @@
 .worldLogo {
     width: 20px;
     height: 20px;
+}
+
+.offcanvas {
+    --bs-offcanvas-height: 50vh;
 }
 
 
@@ -235,3 +243,4 @@ ul li a {
 #areaScroll {
     position: relative;
 }
+

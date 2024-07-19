@@ -40,6 +40,10 @@
     color: rgb(106, 116, 207);
 }
 
+.offcanvas {
+    --bs-offcanvas-height: 50vh;
+}
+
 
 .profileLogoOff {
     width: 35px;

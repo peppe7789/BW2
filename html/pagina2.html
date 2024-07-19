@@ -16,7 +16,7 @@
     <nav class="container-fluid">
         <div class="row d-flex justify-content-center">
             <div class="col-12 col-md-11 d-flex justify-content-between align-items-center">
-                <div class="logo">
+                <div class="logo" data-url="../html/home.html">
                     <img src="../assets/logo-pink.png" alt="logo airbnb">
                 </div>
                 <div class="rightMenu d-flex align-items-center gap-2">
@@ -31,13 +31,17 @@
                     </div>
 
 
-                    <button class="buttonBurgerMenu d-flex justify-content-center align-items-center" type="button"
+                    <button class="d-md-none buttonBurgerMenu d-flex justify-content-center align-items-center" type="button"
                         data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                         <ion-icon class="burgerMenu" name="menu-sharp"></ion-icon>
                     </button>
 
+                    <button class="d-none d-md-flex buttonBurgerMenu d-flex justify-content-center align-items-center" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <ion-icon class="burgerMenu" name="menu-sharp"></ion-icon>
+                    </button>
 
-                    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+                    <div class="d-md-none offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
                         aria-labelledby="offcanvasBottomLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasBottomLabel">Menu</h5>
@@ -47,6 +51,30 @@
                         <div class="offcanvas-body small">
                             <div class="d-flex flex-column justify-content-center align-items-center gap-3">
                                 <img class="profileLogoOff" src="../assets/propic.png" alt="logo profile">
+                                <ion-icon name="globe-outline"></ion-icon>
+                            </div>
+                            <div class="menuOffCanvas">
+                                <ul class="pt-2 ps-0 d-flex gap-2 flex-column align-items-center list-unstyled">
+                                    <li><a href="#">Become a host</a></li>
+                                    <li><a href="#">Settings</a></li>
+                                    <li><a href="#">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-none d-md-flex offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">
+                                Menu
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body small">
+                            <div class="d-flex flex-column justify-content-center align-items-center gap-3">
+                                <img class="profileLogoOff" src="../assets/propic.png" alt="logo profile" />
                                 <ion-icon name="globe-outline"></ion-icon>
                             </div>
                             <div class="menuOffCanvas">
@@ -497,7 +525,8 @@
 
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-12 col-md-11 d-flex flex-column flex-lg-row-reverse">
-                <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-end pt-2">
+                <div
+                    class="col-12 col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-end pt-2">
                     <div class="d-flex align-items-center">
                         <ion-icon name="globe-outline"></ion-icon>
                         <h5 class="mb-0">Italiano (IT)</h5>
