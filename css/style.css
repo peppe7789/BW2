@@ -146,7 +146,7 @@ label {
     font-size: 12px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .bsb-hero-6 {
         background-image: url('../assets/home.jpg');
         background-size: cover;
@@ -167,6 +167,18 @@ label {
 .card-text{
     font-size: 12px;
     
+}
+
+.cardSingola {
+    cursor: pointer;
+}
+
+.cardSingola:hover {
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.7);
+}
+
+.personal {
+    border: 1px solid black;
 }
 
 /*footer*/
